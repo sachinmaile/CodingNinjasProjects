@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.container{
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+p,#seconds,#tens{
+    font-size: 2.3rem;
+}
+
+button{
+    font-size: medium;
+    border: 2px solid black;
+}
+
+#start{
+    background-color: green;
+}
+
+#stop{
+    background-color: red;
+}
