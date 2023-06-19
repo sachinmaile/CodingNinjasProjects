@@ -7,7 +7,11 @@
     <title>SuperHero Hunt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper"> 
@@ -17,7 +21,7 @@
                 </div>
                 <!-- Search container on Homepage-->
             </div>
-            <div class="search-container">
+            <div id="search-container">
                 <div class="search-element">
                     <input type="text" class="form-control" placeholder="search Supehero.." id="char-search-box"
                     onkeyup="findChars()">
@@ -26,7 +30,7 @@
                     <!-- End of search element-->
                 </div>
                 <div>
-                <a id= "fav-link" href = "likedHeros/likedHeros.html"><button id="fav-buttton"> Favourites </button> </a> 
+                <a id= "fav-link" href = "likedHeros/likedHeros.html"><button id="fav-button"> Favourites </button> </a> 
                 </div>
                 <!-- End of search container-->
             </div>
@@ -44,7 +48,7 @@
                     </ul>
                 </div>
             </div>
-
-        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
